@@ -1,1 +1,1 @@
-# C-_course
+# C course
