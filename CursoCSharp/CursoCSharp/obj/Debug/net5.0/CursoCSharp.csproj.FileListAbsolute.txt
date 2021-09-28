@@ -1,0 +1,16 @@
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.exe
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.deps.json
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.runtimeconfig.json
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.runtimeconfig.dev.json
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.dll
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\ref\CursoCSharp.dll
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.pdb
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.AssemblyInfoInputs.cache
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.AssemblyInfo.cs
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.dll
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\ref\CursoCSharp.dll
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.pdb
+C:\Users\cleberton.carvalho\Documents\05-C#_curso\C-_course\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.genruntimeconfig.cache
