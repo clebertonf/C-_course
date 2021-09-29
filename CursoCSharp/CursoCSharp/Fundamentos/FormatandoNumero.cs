@@ -18,7 +18,12 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine(valor.ToString("#.##")); // Formata para 2 casas decimais
             Console.WriteLine(valor.ToString("F2")); // Formata para duas casas também
 
-            CultureInfo  cultura = new CultureInfo("pt-br"); // Define a cultura da formatação
+            CultureInfo  cultura = new CultureInfo("en-US"); // Define a cultura da formatação (pt-BR, en-US) etc
+            Console.WriteLine(valor.ToString("C0", cultura)); // Moeda sem casas decimais
+
+            // Add zeros a esquerda
+            int inteiro = 256;
+            Console.WriteLine(inteiro.ToString("D10")); // Adiciona 7 zeros a direita (para o numero inteiro ter 10 casas decimais)
         }
     }
 }
