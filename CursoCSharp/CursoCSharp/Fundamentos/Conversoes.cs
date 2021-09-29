@@ -17,7 +17,7 @@ namespace CursoCSharp.Fundamentos
 
             // Conversão implicita / explicita
             double nota = 9.7;
-            int notaTruncada = (int)nota; // Converto explicitamente pata Int, para funcionar. (possíveis perdas de informação)
+            int notaTruncada = (int)nota; // Converto explicitamente pata Int, para funcionar. (possíveis perdas de informação) (neste caso a linguagem obriga a fazer a conversão)
             Console.WriteLine(notaTruncada); // Tira as casas decimais
 
             // Converçoes string para inteiro int.Parse
