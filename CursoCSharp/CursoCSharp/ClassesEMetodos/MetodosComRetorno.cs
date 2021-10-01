@@ -54,6 +54,11 @@ namespace CursoCSharp.ClassesEMetodos
                 memoria = 0;
                 return this;
             }
+
+            public int Resultado() // neste caso as proximas funçoes para encadear seriam as de inteiro, pois esse metodo retorna um inteiro 
+            {
+               return memoria;
+            }
         }
 
         public static void Executar()
