@@ -14,6 +14,11 @@ namespace CursoCSharp.EstruturasDeControle
             {
                 Console.WriteLine(i);
             }
+
+            for (int i = 10; i >= 1; i--) // Faz regressivo
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
