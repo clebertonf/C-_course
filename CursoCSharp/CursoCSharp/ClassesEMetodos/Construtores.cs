@@ -12,7 +12,7 @@ namespace CursoCSharp.ClassesEMetodos
         public string Fabricante;
         public int Ano;
 
-        // Contrutor padrão
+        // Construtor padrão
 
         public Carro() { } // Neste caso, o construtor padrão sera executado caso haja algum erro no contrutor criado
 
@@ -28,14 +28,14 @@ namespace CursoCSharp.ClassesEMetodos
     {
         public static void Executar()
         {
-            // Primeira forma de instaciar
+            // Primeira forma de instanciar
             Carro carro1 = new Carro("BMW", "325i", 2021);
             Console.WriteLine($"{carro1.Fabricante} {carro1.Modelo} {carro1.Ano}");
 
             var carro2 = new Carro("Ferrari", "Sportiva", 2020);
             Console.WriteLine($"{carro2.Fabricante} {carro2.Modelo} {carro2.Ano}");
 
-            // Segunda forma de instaciar
+            // Segunda forma de instanciar
             var carro3 = new Carro()
             {
                 Fabricante = "Fiat",
@@ -45,7 +45,7 @@ namespace CursoCSharp.ClassesEMetodos
 
             Console.WriteLine($"{carro3.Fabricante} {carro3.Modelo} {carro3.Ano}");
 
-            // Terceira forma de instaciar
+            // Terceira forma de instanciar
             var carro4 = new Carro();
             carro4.Fabricante = "Ford";
             carro4.Modelo = "Prisma";
