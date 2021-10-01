@@ -10,7 +10,19 @@ namespace CursoCSharp.EstruturasDeControle
     {
         public static void Executar()
         {
+            string palavra = "Cleberton";
 
+            foreach (var item in palavra)
+            {
+                Console.WriteLine(item);
+            }
+
+            var aluno = new string[] { "Lucas", "João", "Mario" };
+
+            foreach (var item in aluno)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
