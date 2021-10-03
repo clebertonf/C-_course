@@ -10,7 +10,7 @@ namespace CursoCSharp.ClassesEMetodos
     {
         private string Marca;
         private string Modelo;
-        private int Cilindrada;
+        private int Cilindrada; // uint
 
         // Construtor
         public Moto(string marca, string modelo, int cilindrada)
@@ -70,6 +70,9 @@ namespace CursoCSharp.ClassesEMetodos
             }
 
             // Cilindrada = Math.Abs(cilindrada); para aceitar somente numeros positivos
+
+            // Outra opção seria setar o tipo do atributo cilindrada para uint, pois não aceita sinal e
+            // por consequência não aceita numeros negativos
         }
     }
 
