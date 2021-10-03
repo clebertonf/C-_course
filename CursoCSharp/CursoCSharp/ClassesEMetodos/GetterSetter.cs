@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    public class Moto 
+    public class Moto
     {
         private string Marca;
         private string Modelo;
@@ -15,9 +15,15 @@ namespace CursoCSharp.ClassesEMetodos
         // Construtor
         public Moto(string marca, string modelo, int cilindrada)
         {
-            Marca = marca;
-            Modelo = modelo;
-            Cilindrada = cilindrada;
+            //Marca = marca;
+            //Modelo = modelo;
+            //Cilindrada = cilindrada;
+
+            // Para utilizar validações dos metodos set
+            // E eviatr que usuario coloque valores negativos, tanto no construtor quanto chamando setCilindrada diretamente
+            SetMarca(marca);
+            SetModelo(modelo);
+            SetCilindrada(cilindrada);
         }
 
         // Construtor padrão
@@ -38,7 +44,7 @@ namespace CursoCSharp.ClassesEMetodos
 
         // Modelo
 
-         public string GetModelo()
+        public string GetModelo()
         {
             return Modelo;
         }
@@ -55,18 +61,38 @@ namespace CursoCSharp.ClassesEMetodos
             return Cilindrada;
         }
 
+        // Com os metodos set ha possibilidades de colocar validações
         public void SetCilindrada(int cilindrada)
         {
-            Cilindrada = cilindrada;
+            if (cilindrada > 0)
+            {
+                Cilindrada = cilindrada;
+            }
+
+            // Cilindrada = Math.Abs(cilindrada); para aceitar somente numeros positivos
         }
     }
 
-    
+
     class GetterSetter
     {
         public static void Executar()
         {
+            var moto1 = new Moto("Kawasaki", "Ninja", 636);
+            // get
+            Console.WriteLine(moto1.GetMarca());
+            Console.WriteLine(moto1.GetModelo());
+            Console.WriteLine(moto1.GetCilindrada());
 
+            // set
+            var moto2 = new Moto("Honda", "CB", 250);
+            moto2.SetCilindrada(300);
+            Console.WriteLine(moto2.GetCilindrada());
+
+            // Criando classe com construtor padrão
+            var moto3 = new Moto();
+            moto3.SetModelo("BMW");
+            Console.WriteLine(moto3.GetModelo());
         }
     }
 }
