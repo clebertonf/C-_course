@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
+    // Com enum temos um tipo fechado e controlado por você
     public enum Genero { Acao, Aventura, Comedia }
 
     public class Filme
