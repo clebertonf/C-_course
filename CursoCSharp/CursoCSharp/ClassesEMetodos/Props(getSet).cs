@@ -32,7 +32,7 @@ namespace CursoCSharp.ClassesEMetodos
         }
     }
 
-    class Props_getSet_
+    static class Props_getSet_
     {
         public static void Executar()
         {
