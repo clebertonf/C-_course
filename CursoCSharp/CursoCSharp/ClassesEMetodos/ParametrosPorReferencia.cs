@@ -28,6 +28,8 @@ namespace CursoCSharp.ClassesEMetodos
             int b;
             AlterarOut(out b);
             Console.WriteLine(b);
+
+            // Mais interessante de se usar é o out
         }
     }
 }
