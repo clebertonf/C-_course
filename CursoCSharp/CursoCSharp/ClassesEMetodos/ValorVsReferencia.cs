@@ -15,7 +15,7 @@ namespace CursoCSharp.ClassesEMetodos
         }
         public static void Executar()
         {
-            // Passagem por valor (Tanto o nuemro como a copia são independentes)
+            // Passagem por valor (Tanto o numero como a copia são independentes)(mudanças não geram impacto na copia)
             // Struct e por valor
             int numero = 3;
             int copiaNumero = numero;
