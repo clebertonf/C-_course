@@ -42,6 +42,7 @@ namespace CursoCSharp.Colecoes
             string[] dados = new string[5];
             // Forma 2 de criação
             string[] valores = { "nome", "idade"};
+
         }
     }
 }
