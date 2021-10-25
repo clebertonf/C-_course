@@ -7,15 +7,17 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Colecoes
 {
     public class Produto
-    {
+    { 
+        public string Nome { get; set; }
+        public int Preco { get; set; }
+
+    
         public Produto(string nome, int preco)
         {
             Nome = nome;
             Preco = preco;
         }
 
-        public string Nome { get; set; }
-        public int Preco { get; set; }
     }
     class Listas
     {
