@@ -13,7 +13,7 @@ namespace CursoCSharp.Colecoes
             /* 
              * HashSet não aceita repetição
              * Não é indexada
-             * 
+             * Geralmente é usado quando queremos evitar que elementos duplicados sejam colocados na coleção
              */
             var carrinho = new HashSet<Produto>
             {
