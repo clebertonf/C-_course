@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Colecoes
 {
-    class Array
+    static class Array
     {
         public static void Executar()
         {

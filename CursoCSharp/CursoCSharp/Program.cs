@@ -5,6 +5,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.POO;
 
 namespace CursoCSharp {
     static class Program {
@@ -67,6 +68,10 @@ namespace CursoCSharp {
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", StackCollections.Executar},
                 {"Dicionario - Coleções", Dicionario.Executar},
+
+
+                // POO - Orientação a Objetos
+                {"Herança - POO", Herenca.Executar},
 
 
 
