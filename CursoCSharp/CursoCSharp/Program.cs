@@ -66,6 +66,7 @@ namespace CursoCSharp {
                 {"Queue - Coleções", QueueCollection.Executar},
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", StackCollections.Executar},
+                {"Dicionario - Coleções", Dicionario.Executar},
 
 
 
